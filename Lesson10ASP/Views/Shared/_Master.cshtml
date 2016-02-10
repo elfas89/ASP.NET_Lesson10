@@ -1,0 +1,24 @@
+﻿
+@*Напишите мастер-страницу и три страницы, которые используют эту страницу:*@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Master</title>
+</head>
+<body>
+    <div>
+        <a href="~/First/Index?param=10">1 стр</a>
+        <a href="~/First/Index?param=0">2 стр</a>
+        <a href="~/First/Index?param=-1">3 стр</a>
+        <a href="~/First/MinMax?min=1&max=5">вывод значений от 1 до 5 включительно</a>
+        s
+        мастер пейдж
+    </div>
+    <div>@RenderBody()  </div>
+    <footer>футер!!!1</footer>
+</body>
+</html>
