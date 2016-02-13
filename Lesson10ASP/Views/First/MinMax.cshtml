@@ -20,5 +20,12 @@
 
 
     </div>
+    @using Lesson10ASP.Controllers
+    <div>@Html.Partial("Partial")</div>
+
+    <div>@{
+        Html.RenderPartial("Partial2");   
+    }</div>
+
 </body>
 </html>
